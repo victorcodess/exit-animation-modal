@@ -8,7 +8,7 @@ function App() {
     <div className="w-full h-[100vh] flex items-center justify-center relative">
       <button
         type="button"
-        className="hidden inline-flex w-full justify-center rounded-md bg-[#4f46e5] px-3 py-2 text-md font-bold text-white shadow-sm hover:bg-[#3f38b5] sm:w-auto"
+        className="hidden inl ine-flex w-full justify-center rounded-md bg-[#4f46e5] px-3 py-2 text-md font-bold text-white shadow-sm hover:bg-[#3f38b5] sm:w-auto"
         onClick={() => setOpen(!open)}
       >
         Open modal
