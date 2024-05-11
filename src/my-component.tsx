@@ -5,7 +5,7 @@ export function MyComponent() {
   const [visible, setVisible] = useState(true);
 
   const exitAnimation = {
-    opacity: 0, // Fade out to zero opacity
+    opacity: 0,
     transition: { duration: 0.5, ease: "easeInOut" },
   };
 
