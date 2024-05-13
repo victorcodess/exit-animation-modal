@@ -7,7 +7,7 @@ function App() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="w-ful h-[100vh] flex items-center justify-center relative gap-10">
+    <div className="w-full h-[100vh] flex items-center justify-center relative gap-10">
       <button
         className="inline-flex w-full justify-center rounded-md bg-[#4f46e5] px-3 py-2 text-md font-bold text-white shadow-sm hover:bg-[#3f38b5] sm:w-auto"
         onClick={() => setOpen(!open)}
